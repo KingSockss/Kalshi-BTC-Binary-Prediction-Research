@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 import requests
 
-from config import BINANCE_BASE_URL, BINANCE_KLINES_PATH, KALSHI_BASE_URL, KALSHI_SERIES_PREFIX, RepoConfig
-from utils import NY, safe_float, sleep_s
+from Helpers.config import BINANCE_BASE_URL, BINANCE_KLINES_PATH, KALSHI_BASE_URL, KALSHI_SERIES_PREFIX, RepoConfig
+from Helpers.utils import NY, safe_float, sleep_s
 
 
 def build_kalshi_event_ticker(dt_et: datetime) -> str:

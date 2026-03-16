@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from arch import arch_model
 
-from config import RepoConfig
+from Helpers.config import RepoConfig
 
 FitTag = Literal["garch_t_const", "garch_t_zero", "garch_n_zero", "ewma_t"]
 
